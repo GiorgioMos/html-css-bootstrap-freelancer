@@ -10,17 +10,33 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
-            <div class=".col-12 col-sm-3 py-3">
-                <h1>ciao content</h1>
+        <nav class="navbar navbar-expand-lg text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">START BOOTSTAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mx-w" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
     <section id="jumbo">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center py-5">
-                    <!-- immagine -->
+                    <img class="py-3" id="avatar" src="./img/avatar.svg" alt="avatar">
                     <h1>START BOOTSTRAP</h1>
                     <hr>
                     <h6>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h6>
@@ -28,7 +44,7 @@
             </div>
         </div>
     </section>
-    <section id="prova">
+    <section class="py-5" id="prova">
         <div class="container">
             <div class="row py-3">
                 <div class="col-12">
@@ -36,32 +52,44 @@
                 </div>
             </div>
             <div class="row py-3">
-                <div class="col-12 col-sm-6 col-md-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium amet, error officiis commodi dolorum sed necessitatibus asperiores nisi. Pariatur doloribus perspiciatis modi cumque amet suscipit assumenda porro necessitatibus autem.</div>
-                <div class="col-12 col-sm-6 col-md-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium amet, error officiis commodi dolorum sed necessitatibus asperiores nisi. Pariatur doloribus perspiciatis modi cumque amet suscipit assumenda porro necessitatibus autem.</div>
-                <div class="col-12 col-sm-6 col-md-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium amet, error officiis commodi dolorum sed necessitatibus asperiores nisi. Pariatur doloribus perspiciatis modi cumque amet suscipit assumenda porro necessitatibus autem.</div>
-                <div class="col-12 col-sm-6 col-md-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium amet, error officiis commodi dolorum sed necessitatibus asperiores nisi. Pariatur doloribus perspiciatis modi cumque amet suscipit assumenda porro necessitatibus autem.</div>
-                <div class="col-12 col-sm-6 col-md-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium amet, error officiis commodi dolorum sed necessitatibus asperiores nisi. Pariatur doloribus perspiciatis modi cumque amet suscipit assumenda porro necessitatibus autem.</div>
-                <div class="col-12 col-sm-6 col-md-4 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium amet, error officiis commodi dolorum sed necessitatibus asperiores nisi. Pariatur doloribus perspiciatis modi cumque amet suscipit assumenda porro necessitatibus autem.</div>
+                <div class="col-12 col-sm-6 col-md-4 pb-4">
+                    <img id="burger" src="./img/cabin.png" alt="burger">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 pb-4">
+                    <img id="burger" src="./img/cake.png" alt="burger">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 pb-4">
+                    <img id="burger" src="./img/circus.png" alt="burger">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 pb-4">
+                    <img id="burger" src="./img/game.png" alt="burger">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 pb-4">
+                    <img id="burger" src="./img/safe.png" alt="burger">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 pb-4">
+                    <img id="burger" src="./img/submarine.png" alt="burger">
+                </div>
             </div>
         </div>
     </section>
-    <section>
+    <section id="about">
         <div class="container">
             <div class="row py-3">
-                <h2>ABOUT</h2>
+                <h2 class="text-center">ABOUT</h2>
                 <hr>
-                <div class="col-12 col-sm-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A.</div>
-                <div class="col-12 col-sm-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A.</div>
-                <button class="btn btn-primary my-4">
-                    <i class="fa fa-home pe-2"></i>
-                    Download
-                </button>
+                <div class="col-12 col-sm-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+                <div class="col-12 col-sm-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+            </div>
+            <div class="d-flex justify-content-center my-3">
+                <button type="button" class="btn btn-outline-light">Download</button>
             </div>
         </div>
     </section>
     <section>
         <div class="container">
-            <h2>CONTACT ME</h2>
+            <h2 class="text-center">CONTACT ME</h2>
+            <hr>
             <div class="row py-3">
                 <div class="col-12 pb-2">Name</div>
                 <hr>
@@ -70,6 +98,7 @@
                 <div class="col-12 pb-2">Phone number</div>
                 <hr>
                 <div class="col-12 pb-2">Message</div>
+                
             </div>
         </div>
 

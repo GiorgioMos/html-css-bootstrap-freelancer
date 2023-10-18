@@ -1,0 +1,28 @@
+header{
+    background-color: #2c3e50;
+}
+.navbar{
+    margin: 0px 15%;
+}
+.mx-w{
+    max-width: fit-content;
+}
+#jumbo{
+    background-color: #1abc9c;
+    color: white;
+}
+#avatar{
+    width: 300px;
+}
+#prova{
+    text-align: center;
+}
+#burger{
+    width: 350px;
+    border-radius: 15px;
+}
+#about{
+    background-color: #1abc9c;
+    padding: 20px 0px;
+    color: white;
+}
